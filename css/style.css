@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: #201c2c;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {color: white;}
+a:link {color: white;}
+a:hover {color: #569DAA;}
+a:active {color: #569DAA;}
+
+
+.logo {
+    display: block;
+    margin-left: 4%;
+    margin-right: auto;
+    width: 12%;
+}
+.links {
+    display: block;
+    margin-top: -7%;
+    margin-left: 69%;
+    margin-right: auto;
+    margin-bottom: auto;
+    font-size: 27px;
+}
+.ana-baslik {
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+    font-size: 55px;
+}
+.hosgeldiniz {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+#h2-1 {
+    font-size: 35px;
+    text-align: center;
+    color: #A0D8B3;
+}
+.anasayfa-paket {
+    display: block;
+    text-align: center;
+    list-style-position: inside;
+    color: white;
+    font-size: 18px;    
+}
+#p-1 {
+    color: white;
+    font-size: 21px;
+}
+.table {
+    z-index: 1;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', 'sans-serif';
+}
+table {
+    position: absolute;
+    width: 83%;
+    z-index: 2;
+    top: 33%;
+    left: 7%;
+    border-collapse: collapse; 
+    border-spacing: 0;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden; 
+    box-shadow: 0 2px 12px rgba(32, 32, 32, 32);
+    background: #394867;
+}
+td, tr {
+    padding: 15px 20px;
+}
+tr:nth-child(odd) {
+    background-color: #317280;
+}
+.icons {
+    width:12%;
+}
+td:hover {
+    background-color: #210062;
+  }
+tr:hover {
+    background-color: #210062;
+}
